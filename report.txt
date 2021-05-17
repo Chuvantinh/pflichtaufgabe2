@@ -1,0 +1,2 @@
+ xDelta is 70.0
+yDelta is 30.0

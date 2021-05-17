@@ -16,14 +16,30 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
+    /**
+     * caculating circum of circle
+     * @param x
+     * @param y
+     * @return circum of circle
+     */
     double circumference(double x, double y){
         return radius * 2 * pi;
     }
 
+    /**
+     * caculating area of circle
+     * @param x
+     * @param y
+     * @return area of shape
+     */
     double area(double x, double y){
         return radius * radius * pi;
     }
 
+    /**
+     * return string message
+     * @return
+     */
     @Override
     public String toString() {
         return " the radius of circle is " + radius;

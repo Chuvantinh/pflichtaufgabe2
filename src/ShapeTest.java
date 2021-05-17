@@ -27,5 +27,7 @@ class ShapeTest {
         Circle circle = new Circle(40, 10, 25);
         assertEquals(1962.5, circle.area(40, 10));
         assertEquals( 157, circle.circumference(40, 10));
+
+        Reporter.report(recObj);
     }
 }
